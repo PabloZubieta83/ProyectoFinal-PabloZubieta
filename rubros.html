@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,9 @@
     <title>
         Rubros
     </title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
 </head>
 
@@ -21,25 +24,13 @@
             <h1>
                 FERRETERIA PIPO
             </h1>
-            <nav>
-                <ul class="menu">
-                    <li>
-                        <a href="./index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="./nosotros.html">Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="./rubros.html">Rubros</a>
-                    </li>
-                    <li>
-                        <a href="./ubicacion.html">Ubicación</a>
-                    </li>
-                    <li>
-                        <a href="./contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
+            <div class="btn-group">
+                <a href="./index.html" class="btn btn-primary">Inicio</a>
+                <a href="./nosotros.html" class="btn btn-primary">Nosotros</a>
+                <a href="./rubros.html" class="btn btn-primary active" aria-current="page">Rubros</a>
+                <a href="./ubicacion.html" class="btn btn-primary">Ubicacion</a>
+                <a href="./contacto.html" class="btn btn-primary">Contacto</a>
+            </div>
         </header>
 
         <main class="padding-inferior">
@@ -72,17 +63,16 @@
                     <h3>
                         Alimento para mascotas
                     </h3>
-                    <img src=".\imagenes\imagen-alimento-mascotas.jpg"
-                        alt="imagen de alimento de mascotas">
+                    <img src=".\imagenes\imagen-alimento-mascotas.jpg" alt="imagen de alimento de mascotas">
                 </div>
 
 
             </div>
 
             <div>
-                <h3>
+                <p>
                     <a href="./index.html">Inicio</a>
-                </h3>
+                </p>
             </div>
         </main>
         <footer>
@@ -91,6 +81,10 @@
             </p>
         </footer>
     </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
 
 
