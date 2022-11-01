@@ -34,10 +34,9 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-
-
-
-    .card &:hover {
+}
+    .card 
+        &:hover {
         transform: translateY(-15px);
         box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 
@@ -56,6 +55,8 @@ h1 {
         margin: 20px;
         text-align: center;
         transition: all 0.25s;
+
+        }
 
         .portada img {
             display: block;
@@ -145,18 +146,4 @@ h1 {
 
         .padding-inferior {
             padding-bottom: 400px
-        }
-
-        @media only screen and (min-width 372px and max-width 720px);
-
-            {
-
-            body (min-width 372px);
-        }
-
-        @media screen and (max-width: 600px) {
-            .portada {
-                width: auto;
-                height: auto;
-            }
         }
