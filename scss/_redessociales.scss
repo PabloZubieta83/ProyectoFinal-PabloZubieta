@@ -2,7 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
   ul {
+    padding-inline: initial;
     li {
       display: inline-block;
       margin: 0 5px;
