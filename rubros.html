@@ -2,96 +2,104 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="ferreteria, pipo, electricidad, pinturas, mascotas, tigre">
-    <meta name="description" content="Nuestros rubros son ferreteria, electricidad, pinturas y alimento para mascotas">
-    <link rel="icon" href=".\imagenes\icons8-martillo-16.png">
-    <title>
-        Rubros
-    </title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="ferreteria, pipo, electricidad, pinturas, mascotas, tigre" />
+    <meta name="description"
+        content="Nuestros rubros son ferreteria, electricidad, pinturas y alimento para mascotas" />
+    <link rel="icon" href=".\imagenes\icons8-martillo-16.png" />
+    <title>Rubros</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-    <div class="grid-container">
+    <header>
 
-        <header>
+        <h1>FERRETERIA PIPO</h1>
 
-            <h1>
-                FERRETERIA PIPO
-            </h1>
-            
-            <div class="btn-group">
-                <a href="./index.html" class="btn btn-primary">Inicio</a>
-                <a href="./nosotros.html" class="btn btn-primary">Nosotros</a>
-                <a href="./rubros.html" class="btn btn-primary active" aria-current="page">Rubros</a>
-                <a href="./ubicacion.html" class="btn btn-primary">Ubicacion</a>
-                <a href="./contacto.html" class="btn btn-primary">Contacto</a>
+        <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./rubros.html">Rubros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./ubicacion.html">Ubicaciòn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="padding-inferior">
+
+        <h2>Rubros</h2>
+
+        <div class="container">
+
+            <div class="card">
+                <h3>Ferreteria</h3>
+                <img src=".\imagenes\imagen-de-ferreteria.jpg" alt="imagen de ferreteria" />
             </div>
 
-        </header>
-
-        <main class="padding-inferior">
-
-            <h2>
-                Rubros
-            </h2>
-
-            <div class="container">
-
-                <div class="card">
-                    <h3>
-                        Ferreteria
-                    </h3>
-                    <img src=".\imagenes\imagen-de-ferreteria.jpg" alt="imagen de ferreteria">
-                </div>
-
-                <div class="card">
-                    <h3>
-                        Electricidad
-                    </h3>
-                    <img src=".\imagenes\imagen-electricidad.jpg" alt="imagen de electricidad">
-                </div>
-
-                <div class="card">
-                    <h3>
-                        Pinturas
-                    </h3>
-                    <img src=".\imagenes\imagen-pintureria.jpg" alt="imagen de pintureria">
-                </div>
-
-                <div class="card">
-                    <h3>
-                        Alimento para mascotas
-                    </h3>
-                    <img src=".\imagenes\imagen-alimento-mascotas.jpg" alt="imagen de alimento de mascotas">
-                </div>
-
+            <div class="card">
+                <h3>Electricidad</h3>
+                <img src=".\imagenes\imagen-electricidad.jpg" alt="imagen de electricidad" />
             </div>
 
-            <div>
-                <p class="inicio">
-                    <a href="./index.html">Inicio</a>
-                </p>
+            <div class="card">
+                <h3>Pinturas</h3>
+                <img src=".\imagenes\imagen-pintureria.jpg" alt="imagen de pintureria" />
             </div>
 
-        </main>
-        
-        <footer>
+            <div class="card">
+                <h3>Alimento para mascotas</h3>
+                <img src=".\imagenes\imagen-alimento-mascotas.jpg" alt="imagen de alimento de mascotas" />
+            </div>
+        </div>
 
-            <p>Copyright © 2022 - PABLO ZUBIETA
-                <a href="mailto:pablinrx@hotmail.com">pablinrx@hotmail.com</a>
+        <div>
+            <p class="inicio">
+                <a href="./index.html">Inicio</a>
             </p>
+        </div>
 
-        </footer>
+    </main>
 
-    </div>
+    <footer>
+
+        <p>
+            Copyright © 2022 - PABLO ZUBIETA
+            <a href="mailto:pablinrx@hotmail.com">pablinrx@hotmail.com</a>
+        </p>
+
+    </footer>
 
     <!-- JavaScript Bundle with Popper -->
 

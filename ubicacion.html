@@ -2,82 +2,97 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="ferreteria, pipo, electricidad, pinturas, mascotas, tigre">
-    <meta name="description" content="Estamos ubicados en Tigre, Bs. As.">
-    <link rel="icon" href="..\ferreteria-pipo\imagenes\icons8-martillo-16.png">
-    <title>
-        Ubicación
-    </title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="ferreteria, pipo, electricidad, pinturas, mascotas, tigre" />
+    <meta name="description" content="Estamos ubicados en Tigre, Bs. As." />
+    <link rel="icon" href="..\ferreteria-pipo\imagenes\icons8-martillo-16.png" />
+    <title>Ubicación</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-    <div class="grid-container">
+    <header>
 
-        <header>
+        <h1>FERRETERIA PIPO</h1>
 
-            <h1>
-                FERRETERIA PIPO
-            </h1>
-
-            <div class="btn-group">
-                <a href="./index.html" class="btn btn-primary">Inicio</a>
-                <a href="./nosotros.html" class="btn btn-primary">Nosotros</a>
-                <a href="./rubros.html" class="btn btn-primary">Rubros</a>
-                <a href="./ubicacion.html" class="btn btn-primary active" aria-current="page">Ubicacion</a>
-                <a href="./contacto.html" class="btn btn-primary">Contacto</a>
+        <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./rubros.html">Rubros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./ubicacion.html">Ubicaciòn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </nav>
 
-        </header>
+    </header>
 
-        <main>
+    <main>
 
-            <h2>
-                Ubicación
-            </h2>
+        <h2>Ubicación</h2>
 
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.6738506360675!2d-58.597674785278954!3d-34.43503875609864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca5abea39e823%3A0xb181fe9ced685439!2sferreteria%20pipo!5e0!3m2!1ses-419!2sar!4v1663627368281!5m2!1ses-419!2sar"
-                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.6738506360675!2d-58.597674785278954!3d-34.43503875609864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca5abea39e823%3A0xb181fe9ced685439!2sferreteria%20pipo!5e0!3m2!1ses-419!2sar!4v1663627368281!5m2!1ses-419!2sar"
+            width="400" height="300" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            <div>
-                <p class="direction"><br>
-                    Carlos Gardel 103. Tigre, Bs. As.
-                </p>
-            </div>
-
-            <div>
-                <p class="inicio">
-                    <a href="./index.html">Inicio</a>
-                </p>
-            </div>
-
-        </main>
-
-        <footer>
-
-            <p>Copyright © 2022 - PABLO ZUBIETA
-                <a href="mailto:pablinrx@hotmail.com">pablinrx@hotmail.com</a>
+        <div>
+            <p class="direction">
+                Carlos Gardel 103. Tigre, Bs. As.
             </p>
+        </div>
 
-        </footer>
+        <div>
+            <p class="inicio">
+                <a href="./index.html">Inicio</a>
+            </p>
+        </div>
 
-    </div>
+    </main>
+
+    <footer>
+
+        <p>
+            Copyright © 2022 - PABLO ZUBIETA
+            <a href="mailto:pablinrx@hotmail.com">pablinrx@hotmail.com</a>
+        </p>
+
+    </footer>
 
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
-
+        
 </body>
 
 </html>
