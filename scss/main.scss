@@ -33,6 +33,11 @@ header {
   img {
     width: 350px;
     height: 250px;
+
+    @media screen and (max-width: 720px) {
+      width: auto;
+      height: auto;
+    }
   }
 }
 
@@ -51,13 +56,17 @@ header {
 
 .portada {
   img {
-    width: 90%;
+    width: 100%;
     box-shadow: 0 25px 25px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     border-radius: 8px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+    @media screen and (max-width: 720px) {
+      width: 100%;
+    }
   }
 }
 
@@ -67,6 +76,10 @@ header {
   font-family: "Orbitron", sans-serif;
   font-size: larger;
   margin-top: 20px;
+
+  @media screen and (max-width: 720px) {
+    font-size: 15px;
+  }
 }
 
 iframe {
@@ -76,6 +89,11 @@ iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
+
+  @media screen and (max-width: 720px) {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .form {
@@ -86,6 +104,10 @@ iframe {
   box-sizing: border-box;
   margin-top: 20px;
   border-radius: 7px;
+
+  @media screen and (max-width: 720px) {
+    width: 100%;
+  }
 }
 
 input,
@@ -109,13 +131,6 @@ main {
   padding: auto;
 }
 
-@media (max-width: 768px) {
-  .portada {
-    width: auto;
-    height: auto;
-  }
-}
-
 @mixin pie-de-pagina {
   display: block;
   margin: 50px;
@@ -131,6 +146,10 @@ footer {
 .nav-item {
   font-size: x-large;
   font-family: "Orbitron", sans-serif;
+
+  @media screen and (max-width: 720px) {
+    font-size: large;
+  }
 }
 
 .page {

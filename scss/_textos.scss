@@ -6,6 +6,10 @@ h1 {
   @extend h1;
   color: rgb(169, 113, 85);
   font-size: 75px;
+
+  @media screen and (max-width: 720px) {
+    font-size: 35px;
+  }
 }
 
 h2 {
@@ -16,6 +20,10 @@ h2 {
   margin-bottom: 50px;
   font-size: 35px;
   text-transform: uppercase;
+
+  @media screen and (max-width: 720px) {
+    font-size: 22px;
+  }
 }
 
 h3 {
@@ -24,6 +32,10 @@ h3 {
   color: rgb(13, 8, 63);
   padding: 10px;
   font-size: 25px;
+
+  @media screen and (max-width: 720px) {
+    font-size: 15px;
+  }
 }
 
 .rubro {
@@ -36,6 +48,10 @@ h3 {
   color: rgb(13, 8, 63);
   font-family: "Orbitron", sans-serif;
   font-size: 25px;
+
+  @media screen and (max-width: 520px) {
+    font-size: 18px;
+  }
 }
 
 .inicio {
@@ -46,4 +62,12 @@ h3 {
 
 a {
   color: rgb(169, 113, 85);
+}
+
+p {
+  font-size: 15px;
+
+  @media screen and (max-width: 720px) {
+    font-size: 10px;
+  }
 }
